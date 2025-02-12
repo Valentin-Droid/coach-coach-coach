@@ -28,7 +28,6 @@ export default async function handler(req, res) {
       model: "gpt-4o", // Assure-toi que le modèle est correct pour ton compte Azure
       temperature: 0.7,
       max_tokens: 2048,
-      timeout: 120000,
       top_p: 0.9,
     });
 
