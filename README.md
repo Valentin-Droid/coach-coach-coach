@@ -1,36 +1,106 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Coach Virtuel - Votre Assistant Sportif Personnel 🏋️‍♂️
 
-## Getting Started
+[![Next.js](https://img.shields.io/badge/Next.js-13.0-black.svg)](https://nextjs.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.0-38B2AC.svg)](https://tailwindcss.com/)
+[![ShadcnUI](https://img.shields.io/badge/ShadcnUI-Latest-purple.svg)](https://ui.shadcn.com/)
 
-First, run the development server:
+## 📝 Description
 
+Coach Virtuel est une application web moderne qui offre des programmes d'entraînement personnalisés en fonction de vos objectifs, votre niveau et vos contraintes. Propulsée par l'IA, elle génère des recommandations détaillées pour vous aider à atteindre vos objectifs fitness.
+
+## ✨ Fonctionnalités
+
+- 📋 Formulaire de santé et fitness complet
+- 🎯 Définition d'objectifs personnalisés
+- 💪 Programmes d'entraînement adaptés
+- 🥗 Recommandations nutritionnelles
+- 📊 Suivi de progression
+- 🔄 Interface utilisateur intuitive et réactive
+
+## 🚀 Technologies Utilisées
+
+- **Frontend:**
+  - Next.js 13
+  - React
+  - Tailwind CSS
+  - ShadcnUI Components
+  - Lucide Icons
+
+- **Backend:**
+  - API OpenAI (via Azure)
+  - API Routes Next.js
+
+- **Validation & Formulaires:**
+  - React Hook Form
+  - Zod
+
+## 💻 Installation
+
+1. Clonez le repository :
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/Valentin-Droid/coach-coach-coach.git
+cd coach-coach-coach
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Installez les dépendances :
+```bash
+npm install
+# ou
+yarn install
+```
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+3. Configurez les variables d'environnement :
+```bash
+cp .env.example .env.local
+```
+Remplissez les variables suivantes dans votre `.env.local` :
+- `GITHUB_TOKEN`: Votre token GitHub
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Lancez le serveur de développement :
+```bash
+npm run dev
+# ou
+yarn dev
+```
 
-## Learn More
+5. Ouvrez [http://localhost:3000](http://localhost:3000) dans votre navigateur.
 
-To learn more about Next.js, take a look at the following resources:
+## 🏗️ Structure du Projet
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+coach-coach-coach/
+├── components/         # Composants React réutilisables
+├── hooks/             # Custom hooks React
+├── pages/             # Pages de l'application
+├── public/            # Assets statiques
+└── styles/            # Fichiers de style
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🤝 Contribution
 
-## Deploy on Vercel
+Les contributions sont les bienvenues ! Pour contribuer :
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Forkez le projet
+2. Créez votre branche (`git checkout -b feature/AmazingFeature`)
+3. Committez vos changements (`git commit -m 'Add some AmazingFeature'`)
+4. Poussez vers la branche (`git push origin feature/AmazingFeature`)
+5. Ouvrez une Pull Request
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📜 Licence
+
+Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
+
+## 👥 Auteurs
+
+- [@Valentin-Droid](https://github.com/Valentin-Droid) - Développeur principal
+- [@Zowx](https://github.com/Zowx) - Contributeur
+
+## 📞 Support
+
+Pour toute question ou problème, veuillez :
+1. Consulter les [Issues GitHub](https://github.com/Valentin-Droid/coach-coach-coach/issues)
+2. Ouvrir une nouvelle issue si nécessaire
+
+---
+
+Fait avec ❤️ en France 🇫🇷
